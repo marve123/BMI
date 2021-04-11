@@ -40,7 +40,8 @@ p.p2{
 }
 
 div.contain{
-  background-color: rgba(41, 40, 48, 0.425);
+  background-color: rgba(41, 40, 48, 0.425); 
+  /* border: 2px solid green;  */
   border-radius: 5px;
   /* box-shadow: 3px 6px rgba(128, 128, 128, 0.192); */
   width: 400px;
