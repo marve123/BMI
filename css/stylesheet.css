@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+#body{
+  background-color: rgb(9, 47, 70);
+}
 
 /* div.bg {
 
@@ -106,3 +109,42 @@ video.video-background{
     height: 100%;
   }
 }  
+
+@media screen and (max-width: 1024px){
+  #body{
+    background-color:rgb(9, 47, 70);
+  }
+  div.row{ 
+flex-direction: column;
+  } 
+  p.p1{
+    margin-top: 25px;
+    margin-bottom: 0px;
+  }
+  p.p2{
+    width: 100%;
+    margin-top: 10px;
+    text-align: justify;
+  }
+  .video-background{
+    height: auto;
+    top: 0;
+    right: 0;
+    /* left: 0; */
+    bottom: 0;
+    width: 350px;
+    background-size: cover;
+    margin-right: 0px;
+  }
+  p.intro{
+    width: 100%;
+    text-align: justify;
+  }
+  div.contain{
+    margin-left: 60px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+
+  }
+}
